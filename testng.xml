@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowserEnvSuite">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://test.example.com"/>
+    <test name="Login Test - Firefox on Test Env">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
+
