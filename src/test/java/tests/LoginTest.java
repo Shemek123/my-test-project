@@ -13,8 +13,8 @@ public class LoginTest extends TestConfig
     @Test
     public void successfulLoginTest() {
         LoginPage loginPage = new LoginPage(driver);
-        //driver.get("file:///C:/TestAutomation/TestAutomationTutorial/src/test/resources/login-form.html");
-        driver.get(baseUrl);
+        driver.get("file:///C:/TestAutomation/TestAutomationTutorial/src/test/resources/login-form.html");
+        //driver.get(baseUrl);
 
 //        User newUser = new UserBuilder()
 //                .withPassword("Secret123!")
