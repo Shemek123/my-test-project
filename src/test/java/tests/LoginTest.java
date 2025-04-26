@@ -24,6 +24,6 @@ public class LoginTest extends TestConfig
         loginPage.loginToApp(AdminData.VALID_USERNAME, AdminData.VALID_PASSWORD);
 
         String message = loginPage.getLoginMessage();
-        Assert.assertEquals(message, "You are now logged in.");
+        Assert.assertEquals(message, "You are now logged in.!");
     }
 }
