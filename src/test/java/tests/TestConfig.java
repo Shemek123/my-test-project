@@ -1,4 +1,4 @@
-package config;
+package tests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
@@ -6,7 +6,7 @@ import org.testng.annotations.*;
 import static config.WebDriverFactory.createDriver;
 
 public class TestConfig {
-    protected WebDriver driver;
+    public WebDriver driver;
     protected String baseUrl;
 
     @Parameters({"browser", "url"})
