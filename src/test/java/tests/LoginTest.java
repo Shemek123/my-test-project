@@ -1,6 +1,5 @@
 package tests;
 
-import config.TestConfig;
 import constants.AdminData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
