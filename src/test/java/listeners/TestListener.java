@@ -16,6 +16,8 @@ public class TestListener implements ITestListener {
             if (driver != null) {
                 ScreenshotUtil.captureScreenshot(driver);
             }
+
+            System.out.println("Przemek: captureScreenshot");
         }
     }
 }
