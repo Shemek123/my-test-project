@@ -26,6 +26,7 @@ public class LoginTest extends TestConfig
         loginPage.loginToApp(AdminData.VALID_USERNAME, AdminData.VALID_PASSWORD);
 
         String message = loginPage.getLoginMessage();
+        System.out.println("Przmeek: Przechodzę do assercji");
         Assert.assertEquals(message, "You are now logged in.!");
     }
 }
